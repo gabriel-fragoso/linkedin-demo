@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  background: url('../../public/bg.jpg');
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0 0 2rem;
+    nav {
+      margin-right: 2rem;
+
+      a {
+        padding-right: 2rem;
+        color: #000;
+      }
+    }
+  }
+
+  main {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    justify-content: flex-start;
+    height: 100vh;
+    flex-direction: column;
+    
+    h1 {
+      color: #AF948A;
+      font-size: 3.4rem;
+      font-weight: 400;
+    }
+
+    p {
+      margin-top: 4rem;
+    }
+
+    button {
+      background-color: transparent;
+      color: #AF948A;
+      border: none;
+      font-family: sans-serif;
+      margin-top: 2rem;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #e0d3ce;
+      padding-bottom: 2px;
+    }
+  }
+
+}
